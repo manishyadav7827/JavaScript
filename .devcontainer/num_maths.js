@@ -12,4 +12,7 @@ const hundreds =1000000
 console.log(Math.random())//numbers come into 0-1
 console.log((Math.random()*10)+1)//number comes into 1-10
 console.log(Math.floor(Math.random()*10)+1)//numbers comes without decimal
-
+const min=15
+const max=35
+console.log(Math.floor(Math.random()*(max-min+1)+min))
+//=> Numbers comes wtih a set range 
