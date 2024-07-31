@@ -3,13 +3,13 @@ const obj={
     name:"Manish",
     email: "manishyadav@microsoft.com",
     [mySymb]:"mykey1"
-
-
-
 }
-console.log(obj)
+//console.log(obj)
 obj.email="manishyadav@Tcs.com"
-console.log(obj)
+//console.log(obj)
 Object.freeze(obj)
 obj.email="manish@cc.com"
-console.log(obj)
+//console.log(obj)
+obj.greeting=function(){
+    console.log("Hello World");
+}
